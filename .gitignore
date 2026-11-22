@@ -1,0 +1,32 @@
+# 以前設定したフォルダ
+archive/
+ArduinoIDE/archive/
+3d_models/archive/
+Kicad/archive/
+Kicad/production/
+
+# OS固有の一時ファイル
+Thumbs.db
+.DS_Store
+
+# Arduino / コンパイル・ビルド生成物
+*.hex
+*.bin
+*.elf
+*.o
+*.d
+*.obj
+build/
+
+# エディタ・IDE関連の作業フォルダ
+# .vscode/
+# .idea/
+# *.swp
+
+# KiCad / 回路CADの一時・バックアップファイル
+*-bak
+*.bak
+*.kicad_prl
+_autosave-*
+fp-info-cache
+*_pcb_
